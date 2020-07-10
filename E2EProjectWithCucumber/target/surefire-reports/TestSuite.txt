@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 75.176 s <<< FAILURE! - in TestSuite
+Academy.E2EProject.Validation.homePageNavigation  Time elapsed: 0.572 s  <<< FAILURE!
+java.lang.AssertionError: expected [FEATUREDCOURSES] but found [FEATURED COURSES]
+	at Academy.E2EProject.Validation.homePageNavigation(Validation.java:39)
+
+Academy.E2EProject.HomePage.homePageNavigation  Time elapsed: 14.382 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"*[name='user[email]']"}
+  (Session info: headless chrome=81.0.4044.138)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SURENDAR', ip: '172.20.10.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '11.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.20 (f006328e39a97..., userDataDir: C:\Users\SUREND~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60342}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 70e7988de15c93038f80909239f0dc0f
+*** Element info: {Using=name, value=user[email]}
+	at Academy.E2EProject.HomePage.homePageNavigation(HomePage.java:38)
+
+Academy.E2EProject.HomePage.homePageNavigation  Time elapsed: 15.367 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"*[name='user[email]']"}
+  (Session info: headless chrome=81.0.4044.138)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SURENDAR', ip: '172.20.10.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '11.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.20 (f006328e39a97..., userDataDir: C:\Users\SUREND~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60342}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 70e7988de15c93038f80909239f0dc0f
+*** Element info: {Using=name, value=user[email]}
+	at Academy.E2EProject.HomePage.homePageNavigation(HomePage.java:38)
+
