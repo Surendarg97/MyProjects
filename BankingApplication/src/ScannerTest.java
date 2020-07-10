@@ -18,6 +18,8 @@ public class ScannerTest {
 		
 		System.out.println("Character is "+ charAt);
 		
+		System.out.println("Program finished and pushed to github");
+		
 		
 		
 		
