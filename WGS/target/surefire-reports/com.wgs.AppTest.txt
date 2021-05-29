@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.wgs.AppTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.105 s <<< FAILURE! - in com.wgs.AppTest
+shouldAnswerWithTrue(com.wgs.AppTest)  Time elapsed: 0.015 s  <<< ERROR!
+java.lang.ArithmeticException: / by zero
+	at com.wgs.AppTest.shouldAnswerWithTrue(AppTest.java:18)
+
